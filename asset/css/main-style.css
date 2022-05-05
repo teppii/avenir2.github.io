@@ -1,0 +1,620 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+.py-160 {
+    padding: 100px 0;
+}
+.py-100 {
+    padding: 100px 0;
+}
+.pb-170 {
+    padding-bottom: 170px;
+}
+.pb-150 {
+    padding-bottom: 150px;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pt-170 {
+    padding-top: 170px;
+}
+.pt-240 {
+    padding-top: 240px;
+}
+.ml-1060 {
+    margin-left: 1060px;
+  }
+.ml-1000 {
+    margin-left: 1000px;
+  }
+.ml-400 {
+  margin-left: 400px;
+}
+.ml-234 {
+    margin-left: 234px;
+}
+.ml-200 {
+    margin-left: 200px;
+}
+.ml-192 {
+    margin-left: 192px;
+}
+.ml-60 {
+    margin-left: 60px;
+}
+.ml-40 {
+    margin-left: 40px;
+}
+.ml-24 {
+    margin-left: 24px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.pl-40 {
+    padding-left: 40px;
+}
+.mr-40 {
+    margin-right: 40px;
+}
+.mr-24 {
+    margin-right: 24px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-80 {
+    margin-top: 80px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.mt-134 {
+    margin-top: 134px;
+}
+.mt-135 {
+    margin-top: 135px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mb-344 {
+    margin-bottom: 344px;
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+body {
+    background-color: #040404;
+    font-family: 'SVN-Gilroy';
+    padding-top: 70px;
+}
+.text-shadow {
+    text-shadow:rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;;
+}
+.w-12 {
+    width: 12%;
+}
+.w-15 {
+    width: 15%;
+}
+
+
+
+
+
+.navbar {
+    box-shadow: 0 2px 10px #333333;
+}
+.navbar-brand img{
+    width: 80%;
+}
+.navbar-text a{
+    text-decoration: none;
+}
+@media (max-width: 992px){
+    .w-12 {
+        width: 4%;
+    }
+    .w-15 {
+        width: 6%;
+    }
+    .navbar-dark .navbar-brand img {
+        width: 50%;
+    }
+}
+.nav-item {
+    padding: 12px;
+}
+
+
+
+/* nav */
+
+
+
+
+
+.carousel-caption {
+    text-shadow: 2px 1px 4px rgba(0,0,0,0.6);
+}
+.carousel-caption a {
+    text-decoration: none;
+    color: #fff;
+}
+.carousel-caption a:hover {
+    color: #FD4F14;
+    transition: all 0.3s linear;
+}
+
+
+/* silider */
+
+
+.content-about-regular {
+    font-size: 8vw;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 36%;
+    z-index: 3;
+    text-shadow: 2px 1px 4px rgba(0,0,0,0.6);
+}
+.content-about-light {
+    font-size: 7vw;
+    font-weight: 100;
+    color: #fff;
+    margin-top: 32px;
+    position: absolute;
+    top: 40%;
+    right: 40%;
+}
+.content-about-p {
+    position: absolute;
+    margin-top: 98px;
+    top: 64%;
+    right: 68%;
+    font-size: 14px;
+}
+.about-circle {
+    position: absolute;
+    top: 74%;
+    right: 40%;
+}
+.anh-right{ 
+	position:absolute;
+	right: 0; top: 0;
+	height: 600px}
+.anh-right .a1{ 
+	width: 50%; height: auto; 
+	left: -50px; top: 0; 
+	position: absolute; z-index: 1
+}
+.anh-right .a2{  
+	width: 80%; height: auto; 
+	right: 20px; top: 34%; 
+	position: absolute; z-index: 2
+}	
+.al2{ width: 75%;}
+@media (max-width:900px)
+{
+	.content-about{ 
+		position:static; width: 80%; margin: auto}
+	.content-about-regular,.content-about-light { font-size: 12vw; margin-bottom: 20px}
+	.content-about p{ margin-top: -50px}
+	.anh-right{ 
+	position:static; width: 90%; margin: auto
+	}
+	.anh-right .a1,.anh-right .a2,.al1,.al2{ position: static; width: 80%; height: auto; margin-bottom: 20px;
+	display: block; margin-left: auto; margin-right: auto; float: none}
+ }
+
+
+ /* setion-1 */
+
+
+
+ .content-event-1 {
+     color: #fff;
+     font-size: 4vw;
+     font-weight: 100;
+ }
+ .content-event-2 {
+    color: #fff;
+    font-size: 3.8vw;
+}
+.body-text-event {
+    color: #ffffff;
+    margin: 32px 0 78px;
+    font-size: 14px;
+}
+.img-event {
+    width: 99.9%;
+}
+.at-event {
+    display: flex;
+    justify-content: space-between;
+}
+.at-event h1 {
+    color: #fff;
+    font-size: 1vw;
+}
+.at-event2 {
+    color: #fff;
+    font-size: 1vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-section-2 {
+    position: relative;
+}
+.button {
+    background-color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 37%;
+    cursor: pointer;
+}
+.button h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8px;
+    padding: 12px 48px;
+    color: #040404;
+}
+.button:hover {
+    background-color: #FD4F14;
+    transition: all 0.3s linear;
+}
+/* .event-hover img:hover {
+    display: block;
+} */
+/* section-event */
+
+
+
+.section-nft h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 3.8vw;
+}
+.section-nft h2 {
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.nft-content {
+    display: flex;
+    flex-direction: column;
+}
+.nft-content a {
+    margin-bottom: 78px;
+}
+.nft-content p {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 16px;
+}
+.img-content {
+    text-align: right;
+}
+.img-center-nft {
+    display: flex;
+    justify-content: center;
+}
+/* nft */
+
+
+
+.head-art {
+    display: flex;
+    justify-content: flex-end;
+}
+.head-art a {
+    margin-right: -4%;
+}
+.head-art h1 {
+    color: #fff;
+    font-size: 4vw;
+    margin-top: 40px;
+}
+/* art */
+
+
+
+.head-shop {
+    display: flex;
+}
+.head-shop h1 {
+    color: #fff;
+    font-size: 4vw;
+    margin: 12px 24px 0 0;
+}
+.product {
+    width: 300px;
+    height: 480px;
+    background-color: #272727;
+}
+.content-shop p {
+    color: #fff;
+    font-size: 14px;
+}
+.content-shop h2 {
+    color: #FD4F14;
+    font-size: 20px;
+    font-weight: 500;
+}
+.product a img:hover{
+    margin: -10px;
+    transition: all 0.3s linear;
+}
+/* shop */
+
+
+.footer {
+    z-index: 1000;
+}
+.body-footer h3 {
+    color: #040404;
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 32px;
+}
+.body-footer p {
+    font-size: 14px;
+    color: #040404;
+}
+.body-footer a {
+    text-decoration: none;
+    color: #040404;
+}
+.body-footer a p:hover {
+    color: #FD4F14;
+}
+.input-form {
+    background-color: #040404;
+    outline: none;
+    color: #fff;
+    padding: 6px 80px 6px 12px;
+    border: none;
+    font-size: 14px;
+}
+.icon-footer {
+    display: flex;
+    font-size: 32px;
+}
+.icon-fb {
+    font-size: 29px;
+}
+
+/* footer */
+
+
+
+
+
+/* page-two */
+.about-us-content {
+    color: #fff;
+    padding: 60px 120px;
+}
+.about-us-content h1 {
+    font-size: 4vw;
+    margin-bottom: 32px;
+}
+.about-us-content p {
+    font-size: 14px;
+}
+
+
+
+
+/* about */
+
+
+
+/* page-three */
+.head-event {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.head-event h1 {
+    color: #fff;
+    font-size: 4vw;
+    margin: 0 24px;
+}
+.content-ev-left h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+}
+.content-ev-left p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.content-ev-right {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 14px;
+}
+.content-ev-right p {
+    margin-left: 150px;
+}
+/* event */
+
+
+
+
+
+/* page-four */
+.content-nft-1 h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+.content-nft-1 p {
+    color: #fff;
+    font-size: 14px;
+}
+.content-nft-2 {
+    margin-left: 128px;
+}
+.head-nft {
+    display: flex;
+}
+.head-nft h1 {
+    color: white;
+    margin-top: 32px;
+    font-size: 48px;
+}
+
+
+.nft-slilder-left {
+    color: #fff;
+    font-size: 24px;
+}
+.nft-slilder-left a {
+    text-decoration: none;
+}
+.body-nft {
+    display: flex;
+    align-items: center;
+    
+}
+.body-nft a img {
+    padding: 0 24px;
+}
+.icon-nft {
+    position: absolute;
+    top: 42%;
+    left: -30%;
+}
+.icon-nft-2 {
+    position: absolute;
+    top: 42%;
+    right: -30%;
+}
+/* nft */
+
+
+
+
+/* page-five */
+.section-art-1 {
+    margin: 60px;
+}
+.section-art-1 h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 100;
+}
+.section-art-1 h3 {
+    color: #fff;
+    font-size: 32px;
+}
+.section-art-1 p {
+    color: #FD4F14;
+    font-size: 24px;
+}
+
+
+
+.img-artist {
+    border-radius: 10px;
+}
+.content-artist-h1 h1 {
+    color: white;
+    font-size: 4vw;
+    position: absolute;
+    top: 6%;
+    left: -24%;
+    text-shadow: 2px 1px 4px rgba(0,0,0,0.6);
+}
+.content-artist-p p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 160px;
+}
+.border-10px-art {
+    border-radius: 10px;
+}
+/* art & artist */
+
+
+
+
+
+/* page-six */
+.search-sort-by {
+    color: #fff;
+    display: flex;
+    margin: -8px 0;
+}
+.search-sort-by a {
+    color: #fff;
+    margin-left: 132px;
+}
+.head-product {
+    background-color: white;
+    width: 292px;
+    height: 60px;
+}
+.head-product h4 {
+    font-size: 24px;
+    color: #040404;
+    text-align: center;
+    line-height: 60px;
+}
+.name-product li{
+    list-style: none;
+    cursor: pointer;
+}
+.name-product li:hover a {
+    color: #FD4F14;
+}
+.name-product a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.name-product hr {
+    margin-left: -32px;
+}
+
+
+.slider-shop {
+    display: flex;
+    justify-content: center;
+    padding: 48px 0 100px;
+}
+.nav-shop {
+    display: flex;
+    list-style: none;
+    margin: 9px 64px 0 0;
+}
+.nav-shop li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 24px;
+}
+.nav-shop li a:hover {
+    color: #FD4F14;
+}
